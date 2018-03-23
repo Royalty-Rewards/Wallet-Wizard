@@ -28,12 +28,12 @@ const webZ = {
     "eth": {
         "mainnet": {
             "infura": new Web3(
-                new Web3.providers.HttpProvider(functions.config().webz.eth.mainnet.infura)
+                new Web3.providers.HttpProvider(functions.config().eth.mainnet.infura)
             )
         },
         "rinkeby": {
             "infura": new Web3(
-                new Web3.providers.HttpProvider(functions.config().webz.eth.rinkeby.infura)
+                new Web3.providers.HttpProvider(functions.config().eth.rinkeby.infura)
             )
         }
     }
